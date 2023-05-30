@@ -1,0 +1,399 @@
+.batch_ins_list {
+    padding: 50px 0px;
+    font-family: "Roboto" !important;
+}
+.section-title {
+    font-size: 30px;
+    font-family: "Roboto" !important;
+}
+
+/* BATCH CARD DESIGN */
+.batch_card {
+    align-items: center;
+    box-shadow: 0 5px 20px 0 rgba(23, 44, 82, 0.1);
+    border: 1px solid;
+    border-color: #f1f8ff;
+    background-color: #fff;
+    overflow: hidden;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.batch_card .batch_pro_img {
+    float: left;
+}
+.batch_card .batch_pro_img img {
+    width: 200px;
+    height: auto;
+}
+
+/* right content start */
+.batch_card .batch_pro_cnt {
+    overflow: hidden;
+    padding: 0 0 0 30px;
+}
+
+.batch_card .batch_number {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.batch_card .batch_number h2 {
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.batch_card .batch_number span {
+    color: #f0151f;
+    font-family: Roboto;
+    font-weight: 500;
+}
+.batch_card .batch_name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.batch_card .batch_name h2 {
+    color: #f0151f;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.batch_card .batch_inst {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.batch_card .batch_inst h5 {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Roboto";
+    color: rgb(92, 114, 125);
+    margin-bottom: 5px;
+}
+.batch_card .batch_inst h5 span {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Roboto";
+    color: rgb(92, 114, 125);
+}
+.batch_card .batch_rate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.batch_card .batch_rate h5 {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Roboto";
+    color: #f0151f;
+    margin-bottom: 5px;
+}
+.batch_card .batch_rate h5 span {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Roboto";
+    color: rgb(92, 114, 125);
+}
+.view_more_btn {
+    margin-bottom: 8px;
+}
+.view_more_btn a {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Roboto";
+    margin-bottom: 5px;
+}
+
+.batch_card_mob {
+    display: none;
+}
+.show_more_btn {
+    color: #f0151f;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+.show_more_btn:focus{
+    box-shadow: none;
+    outline: none;
+}
+.show_more_btn i {
+    font-size: 14px;
+    margin-left: 2px;
+}
+.show_more_btn:hover {
+    color: #000;
+}
+
+.inst_car {
+    padding: 10px;
+    position: relative;
+}
+
+/* right content ends */
+@media (max-width: 991px) {
+    .institute_list .search-by-place-info {
+        padding: 20px 20px;
+    }
+    .batch_ins_list {
+        padding-bottom: 20px;
+    }
+    .batch_card .batch_pro_img img {
+        max-width: 150px;
+    }
+    .view_more_btn {
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 0px;
+    }
+}
+@media (max-width: 768px) {
+    .inst_car_all .institute_list {
+        min-height: 130px;
+    }
+    .show_more_btn {
+        padding: 3px 12px;
+        font-size: 14px;
+    }
+    .batch_card {
+        display: none;
+    }
+    .batch_card_mob {
+        display: block;
+    }
+    .batch_card_mob {
+        align-items: center;
+        box-shadow: 0 5px 20px 0 rgba(23, 44, 82, 0.1);
+        border: 1px solid;
+        border-color: #f1f8ff;
+        background-color: #fff;
+        overflow: hidden;
+        padding: 15px;
+        margin-bottom: 10px;
+    }
+    .batch_card_mob .batch_pro_img {
+        display: flex;
+        justify-content: space-between;
+    }
+    .batch_card_mob .batch_pro_img img {
+        max-width: 80px;
+        height: auto;
+    }
+
+    .batch_card_mob .batch_pro_cnt {
+        overflow: hidden;
+        padding: 0px;
+        padding-top: 10px;
+    }
+    .batch_pro_cnt_left {
+        padding-left: 12px;
+        width: 100%;
+    }
+    .batch_card_mob .batch_name {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .batch_card_mob .batch_name h2 {
+        font-size: 14px;
+        font-family: Roboto;
+        font-weight: 600;
+        margin-bottom: 0px;
+        color: #f0151f;
+    }
+    .batch_card_mob .batch_name h2:first-child {
+        margin-right: 15px;
+    }
+
+    .batch_card_mob .batch_number {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .batch_card_mob .batch_number h2 {
+        font-size: 16px;
+        font-family: Roboto;
+        font-weight: 500;
+
+        margin-bottom: 0px;
+    }
+    .batch_card_mob .batch_number span {
+        color: #f0151f;
+        font-family: Roboto;
+        font-weight: 500;
+        margin-left: 15px;
+    }
+    .batch_card_mob .batch_inst {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .batch_card_mob .batch_inst h5 {
+        font-size: 15px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: "Roboto";
+        color: rgb(92, 114, 125);
+        margin-bottom: 10px;
+    }
+    .batch_card_mob .batch_inst h5 p {
+        margin-bottom: 0px;
+    }
+    .batch_card_mob .batch_inst h5 span {
+        font-size: 14px;
+        font-weight: 400;
+        font-family: "Roboto";
+        color: rgb(92, 114, 125);
+    }
+    .batch_card_mob .batch_rate {
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .batch_card_mob .batch_rate h5 {
+        font-size: 15px;
+        font-weight: 500;
+        font-family: "Roboto";
+        color: #f0151f;
+        margin-bottom: 0px;
+    }
+    .batch_card_mob .batch_rate h5 span {
+        font-size: 14px;
+        font-weight: 400;
+        font-family: "Roboto";
+        color: rgb(92, 114, 125);
+    }
+
+    .view_more_btn a {
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width: 467px) {
+    .show_more_btn i {
+        font-size: 8px;
+    }
+    .batch_card_mob .batch_pro_cnt {
+        padding-top: 0px;
+    }
+    .batch_card_mob .batch_pro_img {
+        margin-bottom: 10px;
+    }
+
+    .batch_card_mob .batch_name {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .batch_card_mob .batch_name h2 {
+        font-size: 12px;
+    }
+    .batch_card_mob .batch_name h2:first-child {
+        margin-right: 6px;
+    }
+
+    .batch_card_mob .batch_number h2 {
+        font-size: 12px;
+    }
+    .batch_card_mob .batch_number span {
+        margin-left: 15px;
+    }
+    .batch_mob {
+        display: flex;
+        justify-content: center;
+    }
+    .batch_card_mob {
+        width: 100%;
+    }
+
+    .batch_card_mob .batch_inst h5 {
+        font-size: 12px;
+    }
+    .batch_card_mob .batch_inst h5 p {
+        margin-bottom: 0px;
+        font-size: 12px;
+    }
+    .batch_card_mob .batch_inst h5 span {
+        font-size: 12px;
+    }
+    .batch_card_mob .batch_rate h5 {
+        font-size: 12px;
+    }
+    .batch_card_mob .batch_rate h5 span {
+        font-size: 12px;
+    }
+}
+
+.institute_list {
+    margin-bottom: 15px;
+}
+.institute_list .search-by-place-info h4,
+.institute_list .search-by-place-info h6 {
+    margin-bottom: 6px;
+    font-size: 15px;
+    font-family: "Roboto";
+}
+.institute_list .search-by-place-info {
+    padding-top: 0px;
+}
+.institute_list {
+    height: auto !important;
+}
+
+@media (max-width: 767px) {
+   
+    .institute_list {
+        padding: 0px;
+        margin-bottom: 10px;
+    }
+
+    .institute_list .search-by-place-info h4,
+    .institute_list .search-by-place-info h6 {
+        margin-bottom: 6px;
+        font-size: 14px;
+    }
+    .institute_list .search-by-place-info {
+        padding:20px 20px;
+    }
+    .search-by-place-btn a {
+        font-size: 12px;
+    }
+    .ltn__search-by-place-item .search-by-place-img .search-by-place-badge {
+        position: absolute;
+        top: -10px;
+        left: 4px;
+    }
+}
+@media (max-width: 567px) {
+    .institute_list .search-by-place-info h4,
+    .institute_list .search-by-place-info h4 a,
+    .institute_list .search-by-place-info h6 {
+        margin-bottom: 4px;
+        font-size: 12px;
+    }
+    .institute_list .search-by-place-info {
+        padding: 0px 4px 20px;
+    }
+    .int_banner img {
+        width: 60% !important;
+        height: auto !important;
+    }
+    .search-by-place-btn a {
+        font-size: 10px;
+    }
+    .ltn__search-by-place-item .search-by-place-img .search-by-place-badge ul li {
+        padding: 2px 8px;
+        font-size: 10px;
+    }
+}

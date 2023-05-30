@@ -1,0 +1,20 @@
+.profile_update_section{
+    /* border:2px solid #ededed; */
+    padding: 10px;
+}
+.profile_photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+.profile_update_section form{
+    margin-top: 1rem;
+}
+.profile_up_btn{
+    display: flex;
+    justify-content: center;
+}
+.prof_btn{
+    border: 1px solid #f0151f;
+}

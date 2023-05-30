@@ -1,0 +1,51 @@
+.filter-active {
+    color: #F0151F;
+}
+
+.batchSelectFilter {
+    border: none;
+    min-width: 20px;
+}
+
+.batchSelectFilter:focus {
+    border: none;
+}
+
+.instituteLocationFilter {
+    background: transparent;
+    border: none;
+}
+
+.instituteLocationFilter:focus {
+    border: none;
+}
+
+.view-more-batch:hover {
+    color: #F0151F;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.ratingSpan {
+    color: #f7b731;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.footer-list-text {
+    color: white;
+}
+
+.footer-list-text:hover {
+    color: #f0151f;
+}
+
+.mobile-menu-item {
+    color: #5c727d;
+}
+
+.mobile-menu-item:hover,
+.mobile-menu-item:active {
+    color: #f0151f!important;
+}

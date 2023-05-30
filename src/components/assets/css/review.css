@@ -1,0 +1,149 @@
+.reviews_wrapper {
+    padding: 1rem 0rem;
+    margin-bottom: 1rem;
+}
+.review_card {
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0px -3px 10px 0px rgb(191 189 189 / 30%);
+    padding: 12px;
+}
+.heading_rev {
+    display: flex;
+    align-items: center;
+}
+.heading_rev img {
+    width: 70px;
+    height: 70px;
+    background: #e5e5e5;
+    border-radius: 50%;
+}
+.heading_rev .name {
+    margin-left: 10px;
+}
+.heading_rev .name h3 {
+    font-size: 18px;
+    margin: 5px 0px;
+    font-weight: 500;
+}
+.review_card .cmt {
+    font-size: 14px;
+    margin-bottom: 0;
+    font-weight: 500;
+    padding: 0px 10px 10px;
+    margin-left: 4.5rem;
+}
+.rating_icon h4 {
+    font-size: 14px;
+    font-weight: 500;
+}
+.sub_text_whbmbc {
+    font-size: 24px;
+    text-align: justify;
+}
+.whyBmbc_wrapper {
+    margin: 0;
+    margin-bottom: 4rem;
+    list-style: none;
+}
+.whyBmbc_wrapper li {
+    position: relative;
+    margin: 3rem 0rem;
+}
+
+.whyBmbc_wrapper li h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #f0151f;
+}
+.whyBmbc_wrapper {
+    padding-left: 0;
+}
+.whyBmbc_wrapper li p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.hlp_center_wrapper {
+    padding: 40px 0 0;
+}
+.hlp_center_wrapper h4 {
+    margin-bottom: 30px;
+    font-size: 22px;
+    font-weight: 600;
+    border-left: 2px solid;
+    border-color: #f0151f;
+    padding-left: 10px;
+}
+.hlp_center_wrapper p {
+    margin-bottom: 2rem;
+    font-size: 14px;
+    font-family: "Roboto";
+    text-align: justify;
+}
+.reviews_wrapper {
+    display: grid;
+    margin-bottom: 0;
+    grid-template-columns: repeat(3, 1fr);
+}
+.product-ratting .btnStyle {
+    background-color: transparent;
+    cursor: pointer;
+    margin-right: 0.4rem;
+}
+@media (max-width: 767px) {
+    .sub_text_whbmbc {
+        font-size: 14px;
+    }
+    .whyBmbc_wrapper {
+        margin-bottom: 2rem;
+    }
+    .heading_rev img {
+        width: 20px;
+        height: 20px;
+    }
+    .heading_rev .name h3 {
+        font-size: 16px;
+        margin: 0px;
+    }
+    .rating_icon h4 {
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .review_card .cmt {
+        padding-left: 0px;
+        margin-left: 2rem;
+        font-size: 12px !important;
+    }
+}
+
+.sub_text_whbmbc_about {
+    font-size: 14px;
+    margin-top: 3rem;
+    text-align: justify;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+        "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.whyBmbc_wrapper_about {
+    padding-left: 12px;
+}
+.whyBmbc_wrapper_about li h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #f0151f;
+}
+
+.whyBmbc_wrapper_about li h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #f0151f;
+}
+.whyBmbc_wrapper_about li p {
+    font-size: 14px;
+    margin-bottom: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+        "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}

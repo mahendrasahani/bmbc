@@ -1,0 +1,14 @@
+.ltn__breadcrumb-list ul li {
+    display: inline-block;
+    margin-right: 30px;
+    position: relative;
+    margin-top: 0px;
+    font-weight: 700;
+}
+.ltn__breadcrumb-area{
+    padding: 30px 0px;
+    margin-bottom: 20px;
+}
+.menu-color-white .ltn__main-menu > ul > li > a{
+    color: #000;
+}

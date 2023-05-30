@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+/* MAIN HEADING AND COMMON CSS FOR BLOG PAGE */
+.title_head {
+    font-size: 20px;
+    font-family: "Roboto";
+    border-left: 2px solid #f0151f;
+    padding-left: 5px;
+}
+.comment_lv_fm form {
+    padding: 30px 20px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+.comment_lv_fm form h4 {
+    font-size: 20px;
+}
+.comment_lv_fm form h6 {
+    font-size: 16px;
+}
+.batch_detail_box_head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.batch_detail_box_head span {
+    font-size: 14px;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #f0151f;
+}
+.batch_detail_box_head h1 {
+    font-size: 20px;
+    font-family: "Roboto";
+    margin: 1rem 0;
+}
+.batch_detail_box_head img {
+    max-height: 150px;
+}
+.batch_detail_box_head label {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Roboto";
+}
+
+/* IBNSTITUTE DETAIL BOX CSS*/
+.batch_detail_box h3 {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Roboto";
+    margin-bottom: 0.5em;
+}
+.batch_detail_box h3 span:last-child {
+    color: rgb(92, 114, 125);
+    padding-left: 1rem;
+}
+.batch_detail_box .date_wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+.batch_detail_box .date_wrap h6 {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Roboto";
+    color: rgb(92, 114, 125);
+}
+
+/* CLASS TIMMING CSS START */
+.batch_timings {
+    padding: 20px 0px;
+}
+.batch_timings ul {
+    margin-bottom: 0px;
+    list-style: none;
+    padding-left: 15px;
+}
+.batch_timings ul li {
+    padding: 10px 0px;
+    margin: 0px;
+}
+.batch_timings ul li label {
+    font-size: 14px;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+.mob_v {
+    display: block;
+}
+.desk_v {
+    display: none;
+}
+/* STUDENT REVIEW CSS START */
+.title_head span {
+    color: #f0151f;
+}
+/* ADD REVIEW CSS START */
+
+@media (max-width: 991px) {
+    .mob_v {
+        display: none;
+    }
+    .desk_v {
+        display: block;
+    }
+    .title_head {
+        font-size: 18px;
+    }
+    .batch_detail_box_head span {
+        font-size: 12px;
+    }
+    .batch_detail_box_head h1 {
+        font-size: 18px;
+    }
+    .batch_detail_box_head img {
+        max-height: 100px;
+    }
+    .batch_detail_box_head label {
+        font-size: 12px;
+    }
+
+    /* IBNSTITUTE DETAIL BOX CSS*/
+    .batch_detail_box h3 {
+        font-size: 18px;
+    }
+    .batch_detail_box .date_wrap h6 {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    /* CLASS TIMMING CSS START */
+    .batch_timings {
+        padding: 10px 0px;
+    }
+    .batch_timings ul li label {
+        font-size: 12px;
+    }
+}
+@media (max-width: 767px) {
+    .title_head {
+        font-size: 14px;
+    }
+    .batch_detail_box_head span {
+        font-size: 12px;
+    }
+    .batch_detail_box_head h1 {
+        font-size: 14px;
+    }
+    .batch_detail_box_head img {
+        max-height: 100px;
+    }
+    /* IBNSTITUTE DETAIL BOX CSS*/
+    .batch_detail_box h3 {
+        font-size: 14px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .batch_detail_box .date_wrap h6 {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .comment_lv_fm form h4 {
+        font-size: 14px;
+    }
+    .comment_lv_fm form h6 {
+        font-size: 12px;
+    }
+
+    /* CLASS TIMMING CSS START */
+    .batch_timings {
+        padding: 10px 0px;
+    }
+    .batch_timings ul li label {
+        font-size: 12px;
+    }
+}

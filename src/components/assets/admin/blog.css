@@ -1,0 +1,137 @@
+.blog_wrapper {
+    padding: 20px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+.blog_wrapper .heading {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.blog_wrapper .heading h2 {
+    font-size: 22px;
+    color: #5c727d;
+    font-weight: 500;
+}
+.blog_post_form .form-control,textarea{
+    border-radius: 0px;
+    margin-bottom: 12px;
+}
+.blog_post_form .form-control::placeholder{
+    font-size: 14px;
+    padding-left: 12px;
+}
+.blog_post_form .form-control:focus{
+    border:1px solid #dc3545;
+    box-shadow: none;
+}
+.blog_d {
+    padding: 20px;
+    box-shadow: 0px -1px 4px 0px rgb(0, 0, 0, 0.3);
+    margin: 2rem 0;
+    border-radius: 12px;
+}
+.blog_d_heading h2 {
+    font-size: 16px;
+}
+.blog_d_heading p {
+    font-size: 14px;
+    color: #5c727d;
+    padding-top: 2rem;
+}
+.blog_d_footer {
+    padding: 2rem 0rem;
+}
+.blog_d_footer ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+}
+.blog_d_footer ul li {
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+.blog_d_footer ul li a {
+    color: #5c727d;
+}
+.blog_d_footer ul li p {
+    margin-bottom: 0;
+}
+.blog_d_footer ul li p:hover,
+.blog_d_footer ul li a:hover {
+    color: #dc3545;
+}
+.blog_d_footer ul li i {
+    color: #dc3545;
+    padding-right: 10px;
+}
+.blogs_d_comments h6 {
+    font-size: 16px;
+    color: #000;
+}
+.blogs_d_comments p {
+    font-size: 14px;
+    color: #5c727d;
+    padding: 10px;
+}
+.blogs_d_comments {
+    max-width: 220px;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.post_comm {
+    background-color: transparent;
+    color: #5c727d;
+    font-size: 14px;
+    font-weight: 500;
+}
+.post_comm:hover {
+    color: #dc3545;
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+.blog_all_comment_card {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 12px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.comment_card_head h6 {
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+.comment_card_head span {
+    font-size: 12px;
+}
+.blog_all_comment_card p {
+    font-size: 14px;
+    margin: 1rem 0;
+}
+.blog_all_comment_card_reply {
+    display: flex;
+    justify-content: space-between;
+}
+.blog_all_comment_card_reply .btn {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    color: #dc3545;
+}
+.modal_heading {
+    font-size: 18px;
+    font-weight: 500;
+}
+.comment_wrapper .modal_heading {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5em;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 500;
+    font-size: 2rem;
+    padding-left: 15px;
+}

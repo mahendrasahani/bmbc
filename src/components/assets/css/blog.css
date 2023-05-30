@@ -1,0 +1,126 @@
+.comnt_box_form {
+    display: block;
+    transition: 0.5s ease;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 0.6rem rgb(131, 130, 130);
+    border-radius: 12px;
+    width: 50%;
+    padding: 1rem;
+    z-index: 999;
+}
+.comnt_box_form form {
+    background-color: transparent;
+}
+.comnt_box_form .form-control:focus {
+    border: 1px solid #f0151f;
+    box-shadow: none;
+}
+.blog_post_view_cmt_dt {
+    width: 100%;
+    position: relative;
+}
+.comment_all {
+    cursor: pointer;
+}
+.comnt_box_form_hide {
+    display: none;
+}
+
+.comnt_box_form .card_blog_cmt {
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    width: 100%;
+    padding: 10px 20px;
+    box-shadow: 0 0 0.8rem rgb(206, 206, 208);
+}
+.comnt_box_form .card_blog_cmt h2 {
+    font-size: 16px;
+    margin: 0px;
+    margin-bottom: 0px;
+    font-weight: 500;
+}
+.comnt_box_form .card_blog_cmt h6 {
+    font-size: 12px;
+    margin-top: 0px;
+    font-weight: 400;
+}
+.comnt_box_form .card_blog_cmt p {
+    font-size: 14px;
+    margin: 0px;
+}
+/* SIDEBAR STYLING CSSS */
+.sidebar_style_wrapping {
+    max-height: 600px;
+    overflow-y: scroll;
+}
+.ltn__blog-img {
+    margin-top: 2rem;
+    padding: 0rem 1rem;
+}
+.sidebar_style_wrapping .blog_home_title,
+.blog_home_tit {
+    font-size: 18px;
+    font-family: "Roboto";
+}
+.sidebar_style_wrapping .ltn__blog-brief {
+    padding: 20px 20px !important;
+}
+.blog_cmnt_title {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Roboto";
+}
+.blog_title_header {
+    font-size: 22px;
+    font-weight: 500;
+    font-family: "Roboto";
+}
+.contact_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10rem;
+    max-height: 13rem;
+}
+.contact_img_icon {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width:100%;
+    border: 1px solid #e5e5e5;
+    padding: 30px 15px;
+}
+.contact_img_icon img {
+    max-width: 60px;
+}
+.contact_img_icon h4 {
+    font-family: "Roboto";
+    font-size: 18px;
+    margin-bottom: 0.5em;
+    text-align: left;
+}
+.contact_img_icon p {
+    margin-bottom: 0rem;
+}
+
+@media (max-width: 991px) {
+    aside {
+        margin-top: 0px !important;
+    }
+    .ltn__breadcrumb-area {
+        margin-bottom: 20px;
+    }
+    .comnt_box_form {
+        width: 100%;
+    }
+    .blog_title_header {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .blog_title_header {
+        font-size: 16px;
+    }
+}
